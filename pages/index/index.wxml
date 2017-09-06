@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class='index'>
+  <view class='map'>
+    <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" controls="{{controls}}" bindcontroltap="controlTap" markers="{{markers}}" bindmarkertap="markerTap" show-location></map>
+  </view>
+  <view class='btn'>
+    <navigator class='button release' url="/pages/publish/publish" hover-class="navigator-hover">发布</navigator>
+     <navigator class='button search' url="/pages/search/search" hover-class="navigator-hover">搜索</navigator>
+  </view>
+</view>

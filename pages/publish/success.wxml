@@ -1,0 +1,15 @@
+<view class='succ'>
+  <view class='succ-send'>
+    <icon class='succ-icon' type="success" size="45" color='#22cad3'/>
+    <text class='succ-content'>恭喜您，发布成功</text>
+  </view>
+  <view class='succ-item'>
+    1. 审核通过后将被展示在地图上
+  </view>
+  <view class='succ-item'>
+    2. 信息有效期为30天，30天后自动清除
+  </view>
+  <view class='succ-goto'>
+    <navigator class='succ-navigator' url="/pages/index/index">返回首页</navigator>
+  </view>
+</view>

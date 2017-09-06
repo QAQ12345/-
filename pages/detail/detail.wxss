@@ -1,0 +1,12 @@
+/* pages/detail.wxss */
+.detail{
+  color: #aaa;
+  line-height: 100rpx;
+  padding-left: 40rpx;
+  border-bottom: 1px solid #eee;
+}
+.detail-img{
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+}

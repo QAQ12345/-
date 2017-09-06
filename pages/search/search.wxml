@@ -1,0 +1,16 @@
+<view class='search-header'>
+  <input placeholder='请输入关键字' class='search-input' bindinput='handleInputChange'/>
+  <view bindtap='handleSearch'>搜索</view>
+</view>
+
+<view class='search-list' wx:if='{{hasResult}}'>
+  <view class='search-item' wx:for='{{result}}' wx:key='item.id' bindtap='handleDetail' data-index='{{item.id}}'>
+    <view class='search-item-area'>{{item.address}} ({{item.type=='sell'?'求购':'出售'}})</view>
+    <view>{{item.message}}</view>
+    <view>{{item.contact}}</view>
+  </view>
+</view>
+
+<view wx:if='{{!hasResult}}'>
+  <view class='search-sorry'>sorry,暂无相关信息</view>
+</view>

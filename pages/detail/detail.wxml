@@ -1,0 +1,8 @@
+<!--pages/detail.wxml-->
+<view class='detail'>{{address}}</view>
+<view class='detail'>
+  <image class='detail-img' src="/resources/{{type}}.png"></image>
+  {{textType}}
+</view>
+<view class='detail'>{{message}}</view>
+<view class='detail'>{{contact}}</view>
